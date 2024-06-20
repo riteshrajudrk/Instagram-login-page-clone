@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    margin-top: 10px;
+    width: 360px;
+    height: 420px;
+    border: 1px solid rgb(214, 203, 203) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 10px;
+}
+.title h1{
+    font-style: italic;
+    font-size: 3rem;
+    cursor: pointer;
+}
+#username{
+    background-color: #fafafa;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-top: 50px;
+    height: 36px;
+    width: 258px;
+    padding: 9px 0 7px 8px;
+    border-color: rgb(214, 203, 203);
+}
+
+#password{
+    background-color: #fafafa;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-top: 5px;
+    height: 36px;
+    width: 258px;
+    padding: 9px 0 7px 8px;
+    border-color: rgb(214, 203, 203);
+    
+}
+#login{
+    border-style: none;
+    height: 32px;
+    width: 258px;
+    margin: 12px 40px;
+    border-radius: 5px;
+    background-color: #548ef8;
+    color:white;
+    font-weight: 740;
+    cursor: pointer;
+}
+.line1, line2{
+    height: 1px;
+    width: 108px;
+    margin-top: 0.5rem;
+    border: 0.2px solid rgb(214, 203, 203);
+    transform: scaleY(0.1);
+}
+.or {
+    margin-top: 10px;
+    display: flex;
+}
+.text{
+    color: #737373;
+    margin: 0 15px;
+}
+.login-with-fb{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+#imgfb{
+    color: #385185;
+    padding: 0 5px;
+    margin-top: 25px;
+    margin-right: 5px;
+    height: 5px;
+    width: 5px;
+}
+.login-with-fb p {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #385185;
+    font-weight: 800;
+
+}
+.forgot-password p{
+    cursor: pointer;
+    margin-top: 25px;
+    color: #00376B;
+    font-weight: 100;
+    font-weight: 100;
+}
+
+.newuser{
+    margin-top: 10px;
+    height: 60px;
+    width: 360px;
+    border: 1px solid rgb(214, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newuser span{
+    color: #0095f6;
+    cursor: pointer;
+}
+.gettheapp{
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+
+.logos{
+    height: 65px;
+    width:360px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.playstore{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 45px;
+    width: 140px;
+    border-radius: 5px;
+    
+}
+.playstore img{
+    margin-top: 3px;
+    height: 40px;
+    width: 40px;
+}
+.playstore p{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: xx-small;
+}
+.playstore span{
+    font-size: large;
+}
+.microsoft{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 45px;
+    width: 120px;
+}
+.microsoft img{
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 25px;
+    width: 25px;
+}
+.microsoft p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.microsoft span{
+    font-size: large;
+}
+.footer{
+    margin-top: 5rem;
+    height: 130px;
+    width: 850px;
+}
+.foot1{
+    word-spacing: 10px;
+}
+.foot1 {
+    color: #737373;
+    font-size: small;
+}
+.foot1 span{
+    word-spacing: 2px;
+    cursor: pointer;
+
+}
+.foot1 span:hover{
+    text-decoration: underline;
+}
+
+.foot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #737373;
+
+}
+.foot2 span{
+    font-size: small;
+
+}
+#languages{
+    border-style: none;
+    color: #737373;
+
+}
+
+select{
+    font-size: small;
+    cursor: pointer;
+    overflow: hidden;
+    width: 120px ;
+    border-style: none;
+}
